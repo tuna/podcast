@@ -4,7 +4,7 @@ title: "Tunight #6 这是一集做Podcast的Podcast"
 categories:
     - podcast
 author: TUNA
-date: 2015-11-01 18:00:00
+date: 2015-11-01 18:00
 media: https://dn-tuna.qbox.me/audio/m4a/2015-11-01-meta-podcast.m4a
 duration: 02:05:03
 length: 59958710
