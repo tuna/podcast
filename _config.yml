@@ -14,6 +14,7 @@ copyright: Tsinghua University TUNA Association
 description: 金枪鱼之夜
 baseurl: "" # the subpath of your site, e.g. /blog
 category: Technology
+permalink: "/podcast/:year/:month/:title/"
 
 url: "http://podcast.tuna.moe" # the base hostname & protocol for your site
 default_thumb: "http://podcast.tuna.moe/assets/img/tuna.png"

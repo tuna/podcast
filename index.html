@@ -13,17 +13,23 @@ permalink: /
       {% for post in site.posts %}
       <! -- Blog Post -->
       <div class="row">
-        <div class="col-lg-12">
+        {% if post.thumb %}
+        <div class="col-md-8">
+        {% else %}
+        <div class="col-md-12">
+        {% endif %}
           <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
           <div class="post-meta">
             {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
           </div>
-        </div>
-
-        <div class="col-lg-12">
           {{ post.content }}
           <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
         </div>
+        {% if post.thumb %}
+        <div class="col-md-4">
+			    <img class="thumbnail" src="{%if post.thumb contains '://' %}{{post.thumb}}{% else %}{{"/assets/img/podcast/" | prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+        </div>
+        {% endif %}
       </div>
       <div class="hline"></div>
 
