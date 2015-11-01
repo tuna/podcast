@@ -5,7 +5,7 @@ categories:
     - podcast
 author: TUNA
 date: 2015-10-17 14:00
-media: https://dn-tuna.qbox.me/audio/m4a/2015-10-17-regex.m4a
+media: http://podcast-files.tuna.moe/audio/m4a/2015-10-17-regex.m4a
 duration: 01:01:35
 length: 29918464
 subtitle: 
@@ -16,5 +16,5 @@ mediatype: "audio/mpeg"
 
 正则表达式讲座, 与电子系合作的例行讲座。
 
-Slide见: <https://dn-tuna.qbox.me/attachment/2015-10-17-regex-slide.pdf>
+Slide见: <http://podcast-files.tuna.moe/attachment/2015-10-17-regex-slide.pdf>
 
