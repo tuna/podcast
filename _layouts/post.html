@@ -9,6 +9,7 @@ layout: default
             <! -- Blog Post  -->
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+			{% if page.slide_url %}<p><strong>Slide: </strong><a href="{{page.slide_url}}"> 点此下载 </a></p>{%endif%}
             <div class="post-content"> 
             {{ content }}
             </div>

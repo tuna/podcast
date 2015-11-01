@@ -7,6 +7,7 @@ author: TUNA
 date: 2015-10-17 14:00
 media: http://podcast-files.tuna.moe/audio/m4a/2015-10-17-regex.m4a
 ogg_media: http://podcast-files.tuna.moe/audio/ogg/2015-10-17-regex.ogg
+slide_url: http://podcast-files.tuna.moe/attachment/2015-10-17-regex-slide.pdf
 duration: 01:01:35
 length: 29918464
 subtitle: 
