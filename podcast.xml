@@ -3,35 +3,31 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <channel>
-      <title>{{ site.title | xml_escape }}</title>
-      <link>{{ site.url }}{{ site.baseurl }}/</link>
-      <copyright>{{ site.copyright }}</copyright>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:author>{{ site.author }}</itunes:author>
-      <itunes:summary>{{ site.description |xml_escape }}</itunes:summary>  
-      <itunes:owner>
-      	<itunes:name>{{ site.owner }}</itunes:name>
-      	<itunes:email>{{ site.email }}</itunes:email>
-      </itunes:owner>
-      <itunes:image href="{{ site.thumb }}" />
-      <itunes:category text="{{ site.category }}"/>
-
-    {% for post in site.categories['podcast'] %}
-    <item>
-      <title>{{ post.title | xml_escape}}</title>
-      <itunes:author> {{ post.author }}</itunes:author>
-      <itunes:subtitle> {{ post.subtitle }}</itunes:subtitle>
-      <itunes:summary> {{ post.content | xml_escape }} </itunes:summary>
-      <itunes:image href="{{ post.thumb }}" />
-      <enclosure url="{{ post.media }}" length="{{ post.length }}" type="{{ post.mediatype }}"/>
-      <guid></guid>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <itunes:duration>{{ post.duration }}</itunes:duration>
-    </item>
-    {% endfor %}
-
-
-
-  </channel>
+	<channel>
+		<title>{{ site.title | xml_escape }}</title>
+		<link>{{ site.url }}{{ site.baseurl }}/</link>
+		<copyright>{{ site.copyright }}</copyright>
+		<itunes:subtitle></itunes:subtitle>
+		<itunes:author>{{ site.author }}</itunes:author>
+		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>  
+		<itunes:owner>
+			<itunes:name>{{ site.owner }}</itunes:name>
+			<itunes:email>{{ site.email }}</itunes:email>
+		</itunes:owner>
+		<itunes:image href="/assets/img/tuna.png" />
+		<itunes:category text="{{ site.category }}"/>
+		{% for post in site.categories['podcast'] %}
+		<item>
+			<title>{{ post.title | xml_escape}}</title>
+			<itunes:author> {{ post.author }}</itunes:author>
+			<itunes:subtitle> {{ post.subtitle }}</itunes:subtitle>
+			<itunes:summary> {{ post.excerpt | strip_html | xml_escape }} </itunes:summary>
+			<itunes:image href="{{ post.thumb | default: '/assets/img/tuna.png' }}" />
+			<enclosure url="{{ post.media }}" length="{{ post.length }}" type="{{ post.mediatype }}"/>
+			<guid></guid>
+			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+			<itunes:duration>{{ post.duration }}</itunes:duration>
+		</item>
+		{% endfor %}
+	</channel>
 </rss>

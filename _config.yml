@@ -14,7 +14,6 @@ copyright: Tsinghua University TUNA Association
 description: 金枪鱼之夜
 baseurl: "" # the subpath of your site, e.g. /blog
 category: Technology
-thumb: http://laser.scateu.me/tuna.png
 
 
 url: "http://podcast.tuna.moe/" # the base hostname & protocol for your site

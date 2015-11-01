@@ -5,8 +5,7 @@ categories:
     - podcast
 author: TUNA
 date: 2015-10-30 19:00:00
-thumb: http://podcast.tuna.moe/tuna.png
-media: http://podcast.tuna.moe/2015-10-30-%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%ae%b2%e5%ba%a71.m4a
+media: https://dn-tuna.qbox.me/audio/m4a/2015-10-30-SenseTime-deep-learning-1.m4a
 duration: 01:21:35
 length: 39632220
 subtitle: 
