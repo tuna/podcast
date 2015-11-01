@@ -3,6 +3,7 @@ layout:  post
 title: "Tunight #3 Key Signing Party"
 categories:
     - podcast
+tags:
     - tunight
     - GPG
 author: TUNA

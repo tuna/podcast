@@ -8,43 +8,40 @@ permalink: /
   <div class="row">
     <div id="posts" class="col-md-12">
       <h2> # Podcasts </h2> 
-        <p class="rss-subscribe"><i class="fa fa-rss"></i> 点此订阅 <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via Podcast</a>.</p>
+      <p class="rss-subscribe"><i class="fa fa-rss"></i> 点此订阅 <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via Podcast</a>.</p>
 
       {% for post in site.posts %}
-      <! -- Blog Post -->
+      <!-- Blog Post -->
       <div class="row">
         {% if post.thumb %}
         <div class="col-md-8">
-        {% else %}
-        <div class="col-md-12">
-        {% endif %}
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-          <div class="post-meta">
-            {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
+          {% else %}
+          <div class="col-md-12">
+            {% endif %}
+            <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+            <div class="post-meta">
+              {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
+            </div>
+            {{ post.content }}
+            <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
           </div>
-          {{ post.content }}
-          <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+          {% if post.thumb %}
+          <div class="col-md-4">
+            <img class="thumbnail" src="{%if post.thumb contains '://' %}{{post.thumb}}{% else %}{{"/assets/img/podcast/" | prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+          </div>
+          {% endif %}
         </div>
-        {% if post.thumb %}
-        <div class="col-md-4">
-			    <img class="thumbnail" src="{%if post.thumb contains '://' %}{{post.thumb}}{% else %}{{"/assets/img/podcast/" | prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
-        </div>
-        {% endif %}
-      </div>
-      <div class="hline"></div>
+        <div class="hline"></div>
+        <div class="spacing"></div>
+        {% endfor %}
 
-      <div class="spacing"></div>
-      {% endfor %}
-    
         <p class="rss-subscribe"><i class="fa fa-rss"></i> Subscribe to this blog <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via Podcast</a>.</p>
-
+      </div>
     </div>
-
   </div>
 </div>
 
 
-
 <!--
-vim: ts=2 sts=2 sw=2 expandtab
+  vim: ts=2 sts=2 sw=2 expandtab
 -->

@@ -3,49 +3,67 @@ layout: default
 ---
 
 <div class="container mtb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-lg-8">
-            <! -- Blog Post  -->
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-			{% if page.slide_url %}<p><strong>Slide: </strong><a href="{{page.slide_url}}"> 点此下载 </a></p>{%endif%}
-            <div class="post-content"> 
-            {{ content }}
-            </div>
-			{% include jplayer.html %}
-            <div class="spacing"></div>
-        </div><! --/col-lg-8 -->
-        
-        {% include sidebar.html %}
+  <div class="row">
+    <! -- SINGLE POST -->
+    <div class="col-lg-8 col-lg-offset-2">
+      <! -- Blog Post  -->
+      <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+      <div class="post-meta">
+        <div><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></div>
+        {% if page.tags %}
+        <div>
+          {% for tag in page.tags %}
+          <span class="label label-success">{{tag}}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% if page.slide_url %}<p><strong>Slide: </strong><a href="{{page.slide_url}}"> 点此下载 </a></p>{%endif%}
+      <div class="post-content"> 
+        {% if page.thumb %}
+        <div class="row">
+          <img class="thumbnail col-md-6 col-md-offset-3" src="{%if page.thumb contains '://' %}{{page.thumb}}{% else %}{{"/assets/img/podcast/" | prepend: site.baseurl}}{{page.thumb}}{%endif%}" />
+        </div>
+        {% endif %}
+        {% include jplayer.html %}
+        {{ content }}
+      </div>
+      
+      <div><i class="fa fa-rss"></i> 通过 Podcast <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">订阅</a>.</div>
+      <div class="spacing"></div>
+    </div><! --/col-lg-8 -->
 
-    </div><! --/row -->
+  </div><! --/row -->
 </div><! --/container -->
 
 <script type="text/javascript">
 $(document).ready(function(){
-	var options = {
-		title: "{{ page.title }}",
-	{% if page.ogg_media %}
-		m4a: "{{ page.media }}",
-		oga: "{{ page.ogg_media }}"
-	{% else %}
-		m4a: "{{ page.media }}"
-	{% endif %}
-	};
+  var options = {
+    title: "{{ page.title }}",
+    {% if page.ogg_media %}
+    m4a: "{{ page.media }}",
+    oga: "{{ page.ogg_media }}"
+    {% else %}
+    m4a: "{{ page.media }}"
+    {% endif %}
+  };
 
-	$("#jquery_jplayer_1").jPlayer({
-		ready: function (event) {
-			$(this).jPlayer("setMedia", options);
-		},
-		supplied: {% if page.ogg_media %}"m4a, oga"{% else %}"m4a"{% endif %},
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true,
-		remainingDuration: true,
-		toggleDuration: true
-	});
+  $("#jquery_jplayer_1").jPlayer({
+    ready: function (event) {
+      $(this).jPlayer("setMedia", options);
+    },
+    supplied: {% if page.ogg_media %}"m4a, oga"{% else %}"m4a"{% endif %},
+    wmode: "window",
+    useStateClassSkin: true,
+    autoBlur: false,
+    smoothPlayBar: true,
+    keyEnabled: true,
+    remainingDuration: true,
+    toggleDuration: true
+  });
 });
 </script>
+
+<!--
+  vim: ts=2 sts=2 sw=2 expandtab
+-->

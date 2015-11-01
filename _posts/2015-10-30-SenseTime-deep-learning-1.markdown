@@ -3,6 +3,7 @@ layout:  post
 title: "Tunight #5 SenseTime 深度学习系列讲座 第一期"
 categories:
     - podcast
+tags:
     - deep learning
 author: TUNA
 date: 2015-10-30 19:00:00
