@@ -22,7 +22,7 @@ layout: null
 			<itunes:author> {{ post.author }}</itunes:author>
 			<itunes:subtitle> {{ post.subtitle }}</itunes:subtitle>
 			<itunes:summary> {{ post.excerpt | strip_html | xml_escape }} </itunes:summary>
-			<itunes:image href="{{ post.thumb | default: site.default_thumb }}" />
+			<itunes:image href="{%if post.thumb %}{%if post.thumb contains '://' %}{{post.thumb}}{% else %}{{site.url}}{{"/assets/img/podcast/" | prepend: site.baseurl}}{{post.thumb}}{%endif%}{%else%}{{site.default_thumb}}{%endif%}" />
 			<enclosure url="{{ post.media }}" length="{{ post.length }}" type="{{ post.mediatype }}"/>
 			<guid></guid>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>

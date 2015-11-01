@@ -11,10 +11,11 @@ duration: 02:05:03
 length: 59958710
 subtitle: 
 mediatype: "audio/mpeg"
-
+thumb: "2015-11-01-tunight.jpg"
 ---
 
 这一集中，我们现场使用Jekyll为TUNA的Podcast做了一个前端页面，并可以自动生成Podcast.xml。
-文件自动上传到七牛云存储上。
+
+<del>文件自动上传到七牛云存储上</del>。
 
 代码见: <http://github.com/tuna/podcast>
