@@ -14,7 +14,7 @@ layout: null
 			<itunes:name>{{ site.owner }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="/assets/img/tuna.png" />
+		<itunes:image href="{{site.default_thumb}}" />
 		<itunes:category text="{{ site.category }}"/>
 		{% for post in site.categories['podcast'] %}
 		<item>
@@ -22,7 +22,7 @@ layout: null
 			<itunes:author> {{ post.author }}</itunes:author>
 			<itunes:subtitle> {{ post.subtitle }}</itunes:subtitle>
 			<itunes:summary> {{ post.excerpt | strip_html | xml_escape }} </itunes:summary>
-			<itunes:image href="{{ post.thumb | default: '/assets/img/tuna.png' }}" />
+			<itunes:image href="{{ post.thumb | default: site.default_thumb }}" />
 			<enclosure url="{{ post.media }}" length="{{ post.length }}" type="{{ post.mediatype }}"/>
 			<guid></guid>
 			<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
