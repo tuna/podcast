@@ -1,0 +1,21 @@
+---
+layout:  post
+title: "Tunight #2 正则表达式讲座"
+categories:
+    - podcast
+author: TUNA
+date: 2015-10-17 14:00
+thumb: http://podcast.tuna.moe/tuna.png
+media: http://podcast.tuna.moe/2015-10-17-%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e8%ae%b2%e5%ba%a7.m4a
+duration: 01:01:35
+length: 29918464
+subtitle: 
+mediatype: "audio/mpeg"
+
+---
+
+
+正则表达式讲座, 与电子系合作的例行讲座。
+
+Slide见: <http://podcast.tuna.moe/2015-10-17-%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e8%ae%b2%e5%ba%a7-Slide.pdf>
+
