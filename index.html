@@ -1,23 +1,40 @@
 ---
-layout: default
+layout: default 
+title: Podcast 
+permalink: /
 ---
 
-<div class="home">
+<div class="container">
+  <div class="row">
+    <div id="posts" class="col-md-12">
+      <h2> # Podcasts </h2> 
+      {% for post in site.posts %}
+      <! -- Blog Post -->
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+          <div class="post-meta">
+            {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
+          </div>
+        </div>
 
-  <h1 class="page-heading">Posts</h1>
+        <div class="col-lg-12">
+          {{ post.content }}
+          <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+        </div>
+      </div>
+      <div class="hline"></div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="spacing"></div>
+      {% endfor %}
+    
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
+
+
+
+<!--
+vim: ts=2 sts=2 sw=2 expandtab
+-->

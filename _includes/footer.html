@@ -1,38 +1,39 @@
-<footer class="site-footer">
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>{{ site.about }}</p>
+            </div>
 
-  <div class="wrapper">
+            <div class="col-sm-4">
+              <h4>Contact Us</h4>
+              <div>
+                <ul class="social">
+                  <li>
+                    <a href="https://groups.google.com/forum/#!forum/tuna-general"><i class="fa fa-envelope"></i> Mailing List</a>
+                  </li>
+                  <li>
+                  IRC: <a href="http://tuna.moe/irc/">#tuna at freenode</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/tuna/"><i class="fa fa-github"></i> GitHub </a>
+                  </li>
+                  <li>
+                    <a href="https://secure.flickr.com/groups/tuna/"><i class="fa fa-flickr"></i> Flickr</a>
+                  </li>
+                  <li>
+                    <a href="http://weibo.com/u/5402274706"><i class="fa fa-weibo"></i> 新浪微博</a>
+                  </li>
+                  <li>
+                    <a href="http://page.renren.com/601908241"><i class="fa fa-renren"></i> 人人公共主页</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+            <div class="col-sm-4">
+              <img class="img-responsive" src="{{ "/assets/img/logo-white.png" | prepend: site.baseurl }}" />
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

@@ -17,9 +17,9 @@ category: Technology
 thumb: http://laser.scateu.me/tuna.png
 
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://podcast.tuna.moe/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+about: "清华大学 TUNA 协会原名清华大学学生网管会，其前身为清华大学电脑协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"

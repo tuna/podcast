@@ -1,0 +1,39 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+---
+
+<div class="container mtb">
+  <div class="row">
+
+    <! -- BLOG POSTS LIST -->
+    <div class="col-lg-9">
+
+      {% for post in site.categories['blog'] %}
+      <! -- Blog Post -->
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+          <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+        </div>
+
+        <div class="col-lg-9">
+          {{ post.excerpt }}
+          <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+        </div>
+        <div class="col-lg-3">
+          <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+        </div>
+      </div>
+      <div class="hline"></div>
+
+      <div class="spacing"></div>
+      {% endfor %}
+
+    </div><! --/col-lg-8 -->
+
+    {% include sidebar.html %}
+
+  </div><! --/row -->
+</div><! --/container -->
