@@ -3,6 +3,8 @@ layout:  post
 title: "Tunight #3 Key Signing Party"
 categories:
     - podcast
+    - tunight
+    - GPG
 author: TUNA
 date: 2015-10-18 18:00
 media: http://podcast-files.tuna.moe/audio/m4a/2015-10-18-Key-Signing-Party.m4a

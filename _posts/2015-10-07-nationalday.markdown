@@ -3,6 +3,7 @@ layout:  post
 title: "Tunight #1 国庆的尾巴"
 categories:
     - podcast
+    - tunight
 author: TUNA
 date: 2015-10-07 18:00
 media: http://podcast-files.tuna.moe/audio/m4a/2015-10-07-nationalday.m4a
