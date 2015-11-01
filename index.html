@@ -8,6 +8,8 @@ permalink: /
   <div class="row">
     <div id="posts" class="col-md-12">
       <h2> # Podcasts </h2> 
+        <p class="rss-subscribe"><i class="fa fa-rss"></i> 点此订阅 <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via Podcast</a>.</p>
+
       {% for post in site.posts %}
       <! -- Blog Post -->
       <div class="row">
@@ -28,6 +30,8 @@ permalink: /
       <div class="spacing"></div>
       {% endfor %}
     
+        <p class="rss-subscribe"><i class="fa fa-rss"></i> Subscribe to this blog <a href="{{ "/podcast.xml" | prepend: site.baseurl }}">via Podcast</a>.</p>
+
     </div>
 
   </div>
