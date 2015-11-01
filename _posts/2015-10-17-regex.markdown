@@ -16,5 +16,5 @@ mediatype: "audio/mpeg"
 
 正则表达式讲座, 与电子系合作的例行讲座。
 
-Slide见: <http://podcast.tuna.moe/2015-10-17-%e6%ad%a3%e5%88%99%e8%a1%a8%e8%be%be%e5%bc%8f%e8%ae%b2%e5%ba%a7-Slide.pdf>
+Slide见: <https://dn-tuna.qbox.me/attachment/2015-10-17-regex-slide.pdf>
 
