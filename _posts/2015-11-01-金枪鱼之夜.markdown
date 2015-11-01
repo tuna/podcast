@@ -1,0 +1,23 @@
+---
+layout:  post
+title: "Tunight #6 TEST"
+categories:
+    - podcast
+author: TUNA
+date: 2015-11-01 18:00
+thumb: http://laser.scateu.me/tuna.png
+media: http://laser.scateu.me/2015-10-30-%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%ae%b2%e5%ba%a71.m4a
+duration: 01:10:10
+length: 123456
+subtitle: test subtitle
+mediatype: "audio/mpeg"
+
+---
+
+
+啊哈哈哈哈哈
+
+换个行
+
+咬我啊!
+
