@@ -6,6 +6,7 @@ categories:
 author: TUNA
 date: 2015-10-30 19:00:00
 media: http://podcast-files.tuna.moe/audio/m4a/2015-10-30-SenseTime-deep-learning-1.m4a
+ogg_media: http://podcast-files.tuna.moe/audio/ogg/2015-10-30-SenseTime-deep-learning-1.ogg
 duration: 01:21:35
 length: 39632220
 subtitle: 

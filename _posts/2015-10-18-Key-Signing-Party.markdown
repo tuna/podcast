@@ -6,6 +6,7 @@ categories:
 author: TUNA
 date: 2015-10-18 18:00
 media: http://podcast-files.tuna.moe/audio/m4a/2015-10-18-Key-Signing-Party.m4a
+ogg_media: http://podcast-files.tuna.moe/audio/ogg/2015-10-18-Key-Signing-Party.ogg
 duration: 01:33:59
 length: 45655947
 subtitle: 

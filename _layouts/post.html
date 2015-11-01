@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<!-- { include wrap.html %} -->
-
 <div class="container mtb">
     <div class="row">
         <! -- SINGLE POST -->
@@ -14,6 +12,7 @@ layout: default
             <div class="post-content"> 
             {{ content }}
             </div>
+			{% include jplayer.html %}
             <div class="spacing"></div>
         </div><! --/col-lg-8 -->
         
@@ -21,3 +20,31 @@ layout: default
 
     </div><! --/row -->
 </div><! --/container -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var options = {
+		title: "{{ page.title }}",
+	{% if page.ogg_media %}
+		m4a: "{{ page.media }}",
+		oga: "{{ page.ogg_media }}"
+	{% else %}
+		m4a: "{{ page.media }}"
+	{% endif %}
+	};
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function (event) {
+			$(this).jPlayer("setMedia", options);
+		},
+		supplied: {% if page.ogg_media %}"m4a, oga"{% else %}"m4a"{% endif %},
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		remainingDuration: true,
+		toggleDuration: true
+	});
+});
+</script>
