@@ -19,6 +19,7 @@ layout: null
 		{% for post in site.categories['podcast'] %}
 		<item>
 			<title>{{ post.title | xml_escape}}</title>
+			<description> {{ post.excerpt | strip_html | xml_escape }} </description>
 			<itunes:author> {{ post.author }}</itunes:author>
 			<itunes:subtitle> {{ post.subtitle }}</itunes:subtitle>
 			<itunes:summary> {{ post.excerpt | strip_html | xml_escape }} </itunes:summary>
