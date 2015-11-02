@@ -7,8 +7,8 @@ tags:
     - tunight
 author: TUNA
 date: 2015-11-01 18:00
-media: http://podcast-files.tuna.moe/audio/m4a/2015-11-01-meta-podcast.m4a
-ogg_media: http://podcast-files.tuna.moe/audio/ogg/2015-11-01-meta-podcast.ogg
+media: https://dn-tuna.qbox.me/podcast/m4a/2015-11-01-meta-podcast.m4a
+ogg_media: https://dn-tuna.qbox.me/podcast/ogg/2015-11-01-meta-podcast.ogg
 duration: 02:05:03
 length: 59958710
 subtitle: 

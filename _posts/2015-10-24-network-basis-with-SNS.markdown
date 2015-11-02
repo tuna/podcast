@@ -7,8 +7,8 @@ tags:
     - network
 author: TUNA
 date: 2015-10-24 14:00
-media: http://podcast-files.tuna.moe/audio/m4a/2015-10-24-network-basis-with-SNS.m4a
-ogg_media: http://podcast-files.tuna.moe/audio/ogg/2015-10-24-network-basis-with-SNS.ogg
+media: https://dn-tuna.qbox.me/podcast/m4a/2015-10-24-network-basis-with-SNS.m4a
+ogg_media: https://dn-tuna.qbox.me/podcast/ogg/2015-10-24-network-basis-with-SNS.ogg
 duration: 01:11:59
 length: 34965934
 subtitle: 
