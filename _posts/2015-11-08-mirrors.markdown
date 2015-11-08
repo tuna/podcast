@@ -2,12 +2,13 @@
 layout:  post
 title: "Tunight #7 从网络配置开始跑题"
 categories:
-    - mirrors
+    - podcast
+tags:
+    - tunight
     - linux
     - network
     - bi
-tags:
-    - tunight
+    - mirrors
 author: TUNA
 date: 2015-11-08 18:00
 media: https://dn-tuna.qbox.me/podcast/m4a/2015-11-08-mirrors.m4a
