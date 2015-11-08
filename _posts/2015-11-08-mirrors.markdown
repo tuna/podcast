@@ -1,0 +1,24 @@
+---
+layout:  post
+title: "Tunight #7 从网络配置开始跑题"
+categories:
+    - mirrors
+    - linux
+    - network
+    - bi
+tags:
+    - tunight
+author: TUNA
+date: 2015-11-08 18:00
+media: https://dn-tuna.qbox.me/podcast/m4a/2015-11-08-mirrors.m4a
+ogg_media: https://dn-tuna.qbox.me/podcast/ogg/2015-11-08-mirrors.ogg
+duration: 03:07:32
+length: 91084306
+subtitle: 
+mediatype: "audio/mpeg"
+# thumb: "2015-11-01-tunight.jpg"
+---
+
+这一集我们和 USTC 的小伙伴一起讨论建立 mirrors <del>大脸萌</del> 大联盟的一些可能思路和方向。
+
+然后不可避免的跑题了……
