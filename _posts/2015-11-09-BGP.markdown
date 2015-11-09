@@ -14,7 +14,7 @@ duration: 01:30:13
 length: 43821086
 subtitle: 
 mediatype: "audio/mpeg"
-thumb: "2015-11-09-xing-l.jpg"
+thumb: "2015-11-09-xing-li.jpg"
 ---
 
 李星老师主讲「互联网工程」课程之 Internet 路由协议最 Excited 的部分: BGP !
