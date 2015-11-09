@@ -1,0 +1,20 @@
+---
+layout:  post
+title: "Tunight #8 BGP路由协议"
+categories:
+    - podcast
+tags:
+    - network
+    - xingli
+author: TUNA
+date: 2015-11-09 15:20
+media: https://dn-tuna.qbox.me/podcast/m4a/2015-11-09-xing-li-BGP.m4a
+ogg_media: https://dn-tuna.qbox.me/podcast/ogg/2015-11-09-xing-li-BGP.ogg
+duration: 01:30:13
+length: 43821086
+subtitle: 
+mediatype: "audio/mpeg"
+thumb: "2015-11-09-xing-l.jpg"
+---
+
+李星老师主讲「互联网工程」课程之 Internet 路由协议最 Excited 的部分: BGP !
