@@ -8,8 +8,8 @@ tags:
     - GPG
 author: TUNA
 date: 2015-10-18 18:00
-media: https://dn-tuna.qbox.me/podcast/m4a/2015-10-18-Key-Signing-Party.m4a
-ogg_media: https://dn-tuna.qbox.me/podcast/ogg/2015-10-18-Key-Signing-Party.ogg
+media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-18-Key-Signing-Party.m4a
+ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-18-Key-Signing-Party.ogg
 duration: 01:33:59
 length: 45655947
 subtitle: 
