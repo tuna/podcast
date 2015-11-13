@@ -8,8 +8,8 @@ tags:
     - SenseTime
 author: TUNA
 date: 2015-11-13 19:00
-media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-30-SenseTime-deep-learning-2.m4a
-ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-30-SenseTime-deep-learning-2.ogg
+media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-13-SenseTime-deep-learning-2.m4a
+ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-13-SenseTime-deep-learning-2.ogg
 duration: 01:12:22
 length: 35149367
 subtitle: 
