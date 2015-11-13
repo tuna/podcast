@@ -23,4 +23,7 @@ default_thumb: "https://podcast.tuna.moe/assets/img/tuna.png"
 # Build settings
 markdown: kramdown
 
+sass:
+    sass_dir: assets/css
+
 about: "清华大学 TUNA 协会原名清华大学学生网管会，其前身为清华大学电脑协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"
