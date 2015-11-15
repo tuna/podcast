@@ -1,0 +1,18 @@
+---
+layout:  post
+title: "Tunight #11 康哥的荷兰游"
+categories:
+    - podcast
+tags:
+    - Tunight 
+author: TUNA
+date: 2015-11-15 18:30
+media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-15-BlackHat.m4a
+ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-15-BlackHat.ogg
+duration: 01:32:55
+length: 45133044
+subtitle: 
+mediatype: "audio/mpeg"
+---
+
+康哥去荷兰参加黑<del>猫</del>帽大会归来，分享有趣的经历。正片 9:50 开始。
