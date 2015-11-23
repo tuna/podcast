@@ -15,6 +15,11 @@ length: 35149367
 subtitle: 
 mediatype: "audio/mpeg"
 thumb: "2015-11-13-sensetime-dl2.jpg"
+slides: 
+    - name: CTC 文字识别
+      url: https://dn-tuna-podcast.qbox.me/attachment/2015-11-13-SenseTime-CTC.pdf
+    - name: 循环神经网络
+      url: https://dn-tuna-podcast.qbox.me/attachment/2015-11-13-SenseTime-RNN.pdf
 ---
 
 SenseTime 深度学习系列第二期: 文字识别与 RNN

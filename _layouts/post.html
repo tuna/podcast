@@ -18,7 +18,12 @@ layout: default
         </div>
         {% endif %}
       </div>
-      {% if page.slide_url %}<p><strong>Slide: </strong><a href="{{page.slide_url}}"> 点此下载 </a></p>{%endif%}
+      {% if page.slides %}
+        <p><strong>Slides: </strong>
+        {% for slide in page.slides %}
+        <a href="{{slide.url}}"> {{ slide.name | default: "点此下载" }} </a>
+        {% endfor %}</p>
+      {%endif%}
       <div class="post-content"> 
         {% if page.thumb %}
         <div class="row">

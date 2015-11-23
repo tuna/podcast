@@ -13,7 +13,8 @@ duration: 01:04:03
 length: 31110129
 subtitle: 
 mediatype: "audio/mpeg"
-slide_url: https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-latex-talk.pdf
+slides: 
+    - url: https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-latex-talk.pdf
 ---
 
 作为一种专业文档排版系统，LaTeX 目前已为国际学术出版界广泛使用。 
