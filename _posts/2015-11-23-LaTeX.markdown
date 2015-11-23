@@ -1,0 +1,21 @@
+---
+layout:  post
+title: "Tunight #13 图书馆 LaTeX 讲座"
+categories:
+    - podcast
+tags:
+    - LaTeX
+author: TUNA
+date: 2015-11-23 19:00
+media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-23-LaTeX.m4a
+ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-23-LaTeX.ogg
+duration: 01:04:03
+length: 31110129
+subtitle: 
+mediatype: "audio/mpeg"
+slide_url: https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-latex-talk.pdf
+---
+
+作为一种专业文档排版系统，LaTeX 目前已为国际学术出版界广泛使用。 
+本讲座讲解LaTeX的基础知识、下载安装、模板使用，使读者掌握利用 LaTeX 进行学术论文排版，
+以及使用 Thuthesis 进行清华学位论文排版 的基本方法和技巧。

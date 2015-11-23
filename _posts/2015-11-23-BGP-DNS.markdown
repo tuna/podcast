@@ -1,0 +1,19 @@
+---
+layout:  post
+title: "Tunight #12 BGP路由协议"
+categories:
+    - podcast
+tags:
+    - network
+    - xingli
+author: TUNA
+date: 2015-11-23 15:20
+media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-23-xing-li-BGP-DNS.m4a
+ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-23-xing-li-BGP-DNS.ogg
+duration: 01:17:13 
+length: 37509401 
+subtitle: 
+mediatype: "audio/mpeg"
+---
+
+李星老师主讲「互联网工程」课程，BGP 后半部分与 Internet 域名系统。
