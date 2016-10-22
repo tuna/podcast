@@ -23,7 +23,7 @@ thumb: "2016-10-15-nfc-and-rfid.jpg"
 本周金枪鱼之夜，由党凡主席给大家介绍各种智能卡和 NFC 的基础知识，以及几个exciting的案例:   
 
 - 门禁系统  
-- Minfare 卡破解  
+- Mifare 卡破解  
 - 各种 Pay 的原理  
 - 贵校校园卡的原理  
 
