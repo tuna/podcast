@@ -5,9 +5,9 @@ categories:
     - podcast
 tags:
     - nfc
-	- rfid
-	- mifare
-	- pboc
+    - rfid
+    - mifare
+    - pboc
 author: 党凡
 date: 2016-10-15 19:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2016-10-15-nfc-and-rfid.m4a
