@@ -13,7 +13,7 @@ date: 2016-10-15 19:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2016-10-15-nfc-and-rfid.m4a
 slides: 
     - url: https://dn-tuna-podcast.qbox.me/attachment/2016-10-15-nfc-and-rfid.pdf
-duration: 01:46:56
+duration: "01:46:56"
 length: 51941909
 subtitle: 
 mediatype: "audio/mpeg"

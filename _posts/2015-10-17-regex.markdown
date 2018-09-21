@@ -9,7 +9,7 @@ media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-17-regex.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-17-regex.ogg
 slides: 
     - url: https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-regex-slide.pdf
-duration: 01:01:35
+duration: "01:01:35"
 length: 29918464
 subtitle: 
 mediatype: "audio/mpeg"

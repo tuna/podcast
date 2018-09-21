@@ -9,7 +9,7 @@ author: TUNA
 date: 2015-11-15 18:30
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-15-BlackHat.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-15-BlackHat.ogg
-duration: 01:32:55
+duration: "01:32:55"
 length: 45133044
 subtitle: 
 mediatype: "audio/mpeg"

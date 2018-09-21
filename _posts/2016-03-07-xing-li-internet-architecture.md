@@ -10,7 +10,7 @@ author: TUNA
 date: 2016-03-07 15:20
 media: https://dn-tuna-podcast.qbox.me/m4a/2016-03-07-xing-li-internet-architecture.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2016-03-07-xing-li-internet-architecture.ogg
-duration: 01:29:40
+duration: "01:29:40"
 length: 43554676
 subtitle: 
 mediatype: "audio/mpeg"

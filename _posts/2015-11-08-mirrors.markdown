@@ -13,7 +13,7 @@ author: TUNA
 date: 2015-11-08 18:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-08-mirrors.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-08-mirrors.ogg
-duration: 03:07:32
+duration: "03:07:32"
 length: 91084306
 subtitle: 
 mediatype: "audio/mpeg"

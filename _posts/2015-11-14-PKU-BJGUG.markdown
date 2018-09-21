@@ -10,7 +10,7 @@ author: TUNA
 date: 2015-11-14 19:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-14-PKU-BJGUG.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-14-PKU-BJGUG.ogg
-duration: 01:23:47
+duration: "01:23:47"
 length: 40693437
 subtitle: 
 mediatype: "audio/mpeg"

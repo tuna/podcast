@@ -9,7 +9,7 @@ author: TUNA
 date: 2015-10-07 18:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-07-nationalday.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-07-nationalday.ogg
-duration: 02:41:06
+duration: "02:41:06"
 length: 78251570
 subtitle: 
 mediatype: "audio/mpeg"

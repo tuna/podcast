@@ -10,7 +10,7 @@ author: TUNA
 date: 2016-02-29 15:20
 media: https://dn-tuna-podcast.qbox.me/m4a/2016-02-29-xing-li-Internet-Design.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2016-02-29-xing-li-Internet-Design.ogg
-duration: 01:30:13
+duration: "01:30:13"
 length: 43821086
 subtitle: 
 mediatype: "audio/mpeg"

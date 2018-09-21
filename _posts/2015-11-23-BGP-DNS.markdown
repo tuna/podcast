@@ -10,7 +10,7 @@ author: TUNA
 date: 2015-11-23 15:20
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-23-xing-li-BGP-DNS.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-23-xing-li-BGP-DNS.ogg
-duration: 01:17:13 
+duration: "01:17:13"
 length: 37509401 
 subtitle: 
 mediatype: "audio/mpeg"

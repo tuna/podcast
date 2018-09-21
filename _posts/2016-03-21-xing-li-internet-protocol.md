@@ -10,7 +10,7 @@ author: TUNA
 date: 2016-03-21 15:20
 media: https://dn-tuna-podcast.qbox.me/m4a/2016-03-21-xing-li-internet-protocol.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2016-03-21-xing-li-internet-protocol.ogg
-duration: 01:32:51
+duration: "01:32:51"
 length: 45098780
 subtitle: 
 mediatype: "audio/mpeg"

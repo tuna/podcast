@@ -9,7 +9,7 @@ author: TUNA
 date: 2015-11-01 18:00
 media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-01-meta-podcast.m4a
 ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-01-meta-podcast.ogg
-duration: 02:05:03
+duration: "02:05:03"
 length: 59958710
 subtitle: 
 mediatype: "audio/mpeg"
