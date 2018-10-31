@@ -5,10 +5,10 @@ categories:
     - podcast
 author: TUNA
 date: 2015-10-17 14:00
-media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-17-regex.m4a
-ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-17-regex.ogg
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-17-regex.m4a&dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-17-regex.ogg&dl=1
 slides: 
-    - url: https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-regex-slide.pdf
+    - url: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2015-10-17-regex-slide.pdf&dl=1
 duration: "01:01:35"
 length: 29918464
 subtitle: 
@@ -19,5 +19,5 @@ mediatype: "audio/mpeg"
 
 正则表达式讲座, 与电子系合作的例行讲座。
 
-Slide见: <https://dn-tuna-podcast.qbox.me/attachment/2015-10-17-regex-slide.pdf>
+Slide见: <https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2015-10-17-regex-slide.pdf>
 

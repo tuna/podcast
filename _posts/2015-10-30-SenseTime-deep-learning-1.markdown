@@ -7,8 +7,8 @@ tags:
     - deep learning
 author: TUNA
 date: 2015-10-30 19:00
-media: https://dn-tuna-podcast.qbox.me/m4a/2015-10-30-SenseTime-deep-learning-1.m4a
-ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-10-30-SenseTime-deep-learning-1.ogg
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-30-SenseTime-deep-learning-1.m4a&dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-30-SenseTime-deep-learning-1.ogg&dl=1
 duration: "01:21:35"
 length: "39632220"
 subtitle: 

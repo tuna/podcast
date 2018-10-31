@@ -7,14 +7,14 @@ tags:
     - LaTeX
 author: TUNA
 date: 2015-11-23 19:00
-media: https://dn-tuna-podcast.qbox.me/m4a/2015-11-23-LaTeX.m4a
-ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2015-11-23-LaTeX.ogg
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-11-23-LaTeX.m4a&dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-11-23-LaTeX.ogg&dl=1
 duration: "01:04:03"
 length: 31110129
 subtitle: 
 mediatype: "audio/mpeg"
 slides: 
-    - url: https://dn-tuna-podcast.qbox.me/attachment/2015-11-23-latex-talk.pdf
+    - url: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2015-11-23-latex-talk.pdf&dl=1
 ---
 
 作为一种专业文档排版系统，LaTeX 目前已为国际学术出版界广泛使用。 

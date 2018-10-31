@@ -10,9 +10,9 @@ tags:
     - pboc
 author: 党凡
 date: 2016-10-15 19:00
-media: https://dn-tuna-podcast.qbox.me/m4a/2016-10-15-nfc-and-rfid.m4a
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2016-10-15-nfc-and-rfid.m4a&dl=1
 slides: 
-    - url: https://dn-tuna-podcast.qbox.me/attachment/2016-10-15-nfc-and-rfid.pdf
+    - url: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2016-10-15-nfc-and-rfid.pdf&dl=1
 duration: "01:46:56"
 length: 51941909
 subtitle: 
