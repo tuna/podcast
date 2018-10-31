@@ -8,8 +8,8 @@ tags:
     - xingli
 author: TUNA
 date: 2016-03-07 15:20
-media: https://dn-tuna-podcast.qbox.me/m4a/2016-03-07-xing-li-internet-architecture.m4a
-ogg_media: https://dn-tuna-podcast.qbox.me/ogg/2016-03-07-xing-li-internet-architecture.ogg
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2016-03-07-xing-li-internet-architecture.m4a&amp;dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2016-03-07-xing-li-internet-architecture.ogg&amp;dl=1
 duration: "01:29:40"
 length: 43554676
 subtitle: 
