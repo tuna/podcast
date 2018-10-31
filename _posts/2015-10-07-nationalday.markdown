@@ -7,8 +7,8 @@ tags:
     - tunight
 author: TUNA
 date: 2015-10-07 18:00
-media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-07-nationalday.m4a&dl=1
-ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-07-nationalday.ogg&dl=1
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-07-nationalday.m4a&amp;dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-07-nationalday.ogg&amp;dl=1
 duration: "02:41:06"
 length: 78251570
 subtitle: 

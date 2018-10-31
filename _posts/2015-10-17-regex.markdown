@@ -5,10 +5,10 @@ categories:
     - podcast
 author: TUNA
 date: 2015-10-17 14:00
-media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-17-regex.m4a&dl=1
-ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-17-regex.ogg&dl=1
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2015-10-17-regex.m4a&amp;dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2015-10-17-regex.ogg&amp;dl=1
 slides: 
-    - url: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2015-10-17-regex-slide.pdf&dl=1
+    - url: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/attachment/2015-10-17-regex-slide.pdf&amp;dl=1
 duration: "01:01:35"
 length: 29918464
 subtitle: 

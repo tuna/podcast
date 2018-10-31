@@ -8,8 +8,8 @@ tags:
     - xingli
 author: TUNA
 date: 2016-02-29 15:20
-media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2016-02-29-xing-li-Internet-Design.m4a&dl=1
-ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2016-02-29-xing-li-Internet-Design.ogg&dl=1
+media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/m4a/2016-02-29-xing-li-Internet-Design.m4a&amp;dl=1
+ogg_media: https://cloud.tsinghua.edu.cn/d/f585535bf38e4a998ae5/files/?p=/ogg/2016-02-29-xing-li-Internet-Design.ogg&amp;dl=1
 duration: "01:30:13"
 length: 43821086
 subtitle: 
